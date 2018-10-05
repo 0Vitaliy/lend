@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>ReSell Pro - продажа б/у техники не выходя из дома</title>
+    <meta name="description" content="Простая продажа подержанных телефонов: никаких объявлений, звонков и переговоров. Продавайте б/у технику безопасно онлайн на ReSell.com.ua.">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="maskinput.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a[ref^="#"]').click(function () {
+                elementClick = $(this).attr("ref");
+                destination = $(elementClick).offset().top;
+                $('body').animate( { scrollTop: destination }, 400 );
+                $('html').animate( { scrollTop: destination }, 400 );
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="left_wrapper">
+            <a href="https://resell.com.ua" target="_blank" class="logo"><span>Re</span>Sell</a>
+        </div>
+        <div class="right_wrapper">
+            <ul>
+                <li><a href="https://resell.com.ua/" target="_blank">ГЛАВНАЯ</a></li>
+                <li><a ref="#guarantee">ГАРАНТИЯ</a></li>
+                <li><a ref="#buy_with_check">ПРОВЕРКА</a></li>
+                <li><a ref="#buy_with_check">ОПЛАТА</a></li>
+                <li><a ref="#delivery">ДОСТАВКА</a></li>
+                <li><a ref="#feedback">ОТЗЫВЫ</a></li>
+                <li><a href="https://resell.com.ua/buy/1#check" target="_blank"><button class="btn-red">ХОЧУ КУПИТЬ</button></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="banner">
+                <div>
+                  <span>банер</span>
+                  <p>White Gold began gaining popularity in the early 1900’s as an alternative to platinum. </p>
+                </div>
+            </div>
+    <main>
+
+        
+            <div class="main_page">
+                <div>
+                    <h1>Айфоны от надежных продавцов</h1>
+                </div>
+        
+                <div class="filter">
+                    <span>Сортировка</span>
+                    <select>
+                        <option>От дешевых к дорогим</option>
+                        <option>От дорогих  к дешевым</option>
+                    </select>
+                </div>
+            </div>
+        <section class="products">
+            <div class="product">
+                 <img src="img/product.png">
+                 <h2>Apple iPhone 6s 16GB </h2>
+                 <span>Новий</span><br/>
+                 <span>599 грн</span>
+            </div>
+        </section>
+    </main>
+    <div class="modal_navigation">
+       <ul>
+           <li><button class="btn-red"><a class="click" href="#https://resell.com.ua/buy/1#check" target="_blank">КУПИТЬ С ПРОВЕРКОЙ</a></button></li>
+           <li><a class="click" ref="#main_page">ГЛАВНАЯ</a></li>
+           <li><a class="click" ref="#guarantee_mob">ГАРАНТИЯ</a></li>
+           <li><a class="click" ref="#buy_with_check_mob">ПРОВЕРКА</a></li>
+           <li><a class="click" ref="#buy_with_check_mob">ОПЛАТА</a></li>
+           <li><a class="click" ref="#delivery">ДОСТАВКА</a></li>
+           <li><a class="click" ref="#feedback">ОТЗЫВЫ</a></li>
+       </ul>
+   </div>
+   <button class="open_menu">
+       <span></span>
+   </button>
+</body>
+<script type="text/javascript" src="./js/main.js"></script>
+
+</html>

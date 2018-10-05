@@ -1,0 +1,28 @@
+.main_page{
+
+    >.filter{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        >span{
+            font-size: 14px;
+            color: #323B45;
+        }
+        >select{
+            border: 1px solid #DEDEDE;
+            background: none;
+            padding: 9px 25px;
+            font-size: 12px;
+            margin-left: 30px;
+            color: #323B45;
+       }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .main_page {
+        display: flex;
+        justify-content: space-between;
+    }
+}
