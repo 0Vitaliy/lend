@@ -3,9 +3,8 @@
     font-family: 'Roboto', sans-serif;
 }
 body{margin: 0;}
-main{
-    padding: 0 8px;
-}
+
+
 button {
     -webkit-appearance: none;
     outline: none;
@@ -212,6 +211,7 @@ header {
     .right_wrapper > ul >li {
         margin-left: 34px;
     }
+
 }
 @media screen and (min-width:1900px)  {
     header {
