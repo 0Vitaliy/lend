@@ -1,5 +1,14 @@
-.loading{
+@keyframes loading{
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
 
+.loading{
+    display: none;
     padding-top:40px;
     >p{
         font-weight: 300;
@@ -10,6 +19,10 @@
         text-transform: uppercase;
         color: #33333A;
      >img{
+        animation-name: loading;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
         vertical-align: bottom;
      }
     }
